@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sevillana&family=Sofia&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Sevillana&family=Sofia&display=swap" rel="stylesheet">
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } 
+        ul {
+            list-style-type: none;
+            background-color: #14ece2;
+            overflow: hidden;
+           
+            
+            
+        }
+       li{
+        display: inline;
+        float: left;
+        /* padding: 10px; */
+        
+       }
+    li a{
+            display: block;
+            text-decoration: none;
+            padding: 15px 39px;
+            font-size: 1.5em;
+             color: rgb(0, 0, 0);
+       
+       }
+       li:last-child{
+        float: right;
+        margin-right: 20px;
+       }
+       
+       a:hover{
+        background-color: #00ffd5;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        border: 1px solid black;
+       }
+        
+
+       
+       a:active{
+        background-color: #0d75a5;
+        color: white;
+       }
+       h1{
+        margin: 20px;
+        display: inline;
+        font-family: "sofia", cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4em;
+        
+      
+       }
+       span{
+        display: inline;
+        font-family: "Sevillana", cursive;
+        font-style: normal;
+        margin: 30px;
+        margin-top: 30px;
+        font-size: 50px;
+        padding: 15px;
+        border: 2px solid black;
+        background-color: #1c9ad3;
+        border-radius: 20px;
+       }
+       .box1{
+        display: inline;
+        position: relative;
+        margin: 25px;
+        cursor: pointer;
+    
+
+       }
+       .box2{
+           position: absolute;
+           display: none;
+        margin: 0px;
+        margin-top: 15px;
+        margin-left: 40px;
+         font-family: "Sofia", cursive;
+         font-weight: 400;
+         font-style: normal;
+         font-size: 30px;
+         border: 2px solid black;
+         padding: 30px;
+         border-radius: 30px;
+         background-color: #f3047b;
+         
+        
+       }
+       .box1:hover .box2{
+        display: block;
+       }
+      
+       
+
+
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Download</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Log in</a></li>
+    </ul>
+    <h1>Simple Dropdown Menu</h1><hr>
+    <div class="box1">
+        <span>Hover Me</span>
+        <div class="box2">Hello I Am Here &#128512; </div>
+    </div>
+</body>
+</html>
