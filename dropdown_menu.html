@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        ul{
+            list-style-type: none;
+            background-color: #09b9a2;
+            overflow: hidden;
+            width: 15%;
+            
+
+        }
+        
+        li a{
+            text-decoration: none;
+            color: black;
+            padding: 25px;
+            display: block;
+            padding: 8px 16px;
+            font-size: 21px;
+            /* overflow-y: scroll; */
+        }
+        li a.active{
+            background-color: #14ff20;
+            color: white;
+
+        }
+        /* li a:hover{
+            background-color: #1d1c1c;
+            color: white;
+        } */
+        li a:hover:not(.active){
+            background-color: #555;
+            color: white;
+                                
+        }
+    </style>
+</head>
+<body>
+    <div class="box2">
+        <h2 class="left">Dropdown</h2>
+        <ul>
+            <li><a class="active" href="#" >HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JAVASCRIPT</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">MYSQL</a></li>
+            <li><a href="#">PYTHON</a></li>
+        </ul>
+    </div>
+</body>
+</html>
