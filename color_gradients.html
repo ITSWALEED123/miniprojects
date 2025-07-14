@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color_gradients</title>
+    <style>
+        div p{
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            padding-top: 40px;
+        }
+        #box{
+            border: 1px solid black;
+            height: 200px;
+            margin: 20px;
+            /* background-color: #ff0000; */
+            background-image: linear-gradient(rgb(174, 0, 255), rgb(238, 255, 0));
+        }
+        #box1{
+             border: 1px solid black;
+            height: 200px;
+            margin: 20px;
+            background-image: linear-gradient(to right, rgb(0, 255, 98), rgb(195, 0, 255));
+
+        }
+        #box2{
+            border: 1px solid black;
+            height: 200px;
+            margin: 20px;
+            background-image: linear-gradient(40deg, dodgerblue, green);
+        }
+        #box3{
+             border: 1px solid black;
+            height: 200px;
+            margin: 20px;
+            background-image: linear-gradient(red, blue, green);
+
+        }
+        #box4{
+             border: 1px solid black;
+            height: 200px;
+            margin: 20px;
+            background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+        }
+        #box5{
+            border: 1px solid black;
+            height: 200px;
+            margin: 20px;
+            background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+        }
+    </style>
+</head>
+<body>
+   <div id="box">
+    <p>linear-gradient top to bottom</p>
+   </div>
+   <div id="box1">
+    <p>linear-gradient right to left</p>
+   </div>
+   <div id="box2">
+    <p>linear-gradient degree</p>
+   </div>
+   <div id="box3">
+    <p>linear-gradient three colors combination</p>
+   </div>
+   <div id="box4">
+    <p>linear-gradient rainbow colors</p>
+   </div>
+   <div id="box5">
+    <p>linear-gradient transparency</p>
+   </div>
+   
+    
+</body>
+</html>
