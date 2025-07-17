@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D transformation</title>
+    <style>
+        body {
+            perspective: 1000px; /* Important for 3D effect */
+        }
+
+        .box {
+            width: 20%;
+            height: 150px;
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            border: 2px solid black;
+            background-color: #b81515;
+            border-radius: 10px;
+            margin: 20px;
+            margin-top: 50px;
+            float: left;
+            transition: transform 0.5s; 
+            /* smooth animation */
+        }
+
+        .box:hover {
+            transform: rotateX(40deg) rotateY(60deg) rotateZ(10deg); /* Proper 3D rotation */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        waleed   
+    </div> 
+</body>
+</html>
