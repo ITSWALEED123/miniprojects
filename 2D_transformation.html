@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D transformation</title>
+    <style>
+        .box{
+            width: 20%;
+            height: 150px;
+            font-size: 30px;
+            /* padding: 30px; */
+            color: black;
+            text-align: center;
+            border: 2px solid black;
+            background-color: #b81515;
+            border-radius: 10px;
+            margin: 20px;
+            margin-top: 50px;
+            float: left;
+        }
+        .box:hover{
+            transform: translate(50px, 60px);
+        }
+        #ali:hover{
+            transform: rotate(40deg);
+
+        }
+        #ali2:hover{
+            transform: scale(1 ,2);
+
+        }
+        #ali3:hover{
+             transform: scale(0.5, 0.5);
+        }
+        #ali4:hover{
+            transform: skew(30deg);
+            border-radius: 50%;
+        }
+        #ali5:hover{
+             transform: skew(20deg, 10deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        waleed
+    </div>
+    <div class="box" id="ali">waleed</div>
+    <div class="box" id="ali2">waleed</div>
+    <div class="box" id="ali3">waleed</div>
+    <div class="box" id="ali4">waleed</div>
+    <div class="box" id="ali5">waleed</div>
+</body>
+</html>
