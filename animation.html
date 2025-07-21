@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        #box{
+            width: 100px;
+            height: 100px;
+            background-color: #4fb6e6;
+            position: relative;
+            animation-name: waleed;
+            animation-duration: 3s;
+            /* animation-timing-function: 4s; */
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;
+        }
+        @keyframes waleed{
+            0% {background: #fc0403; left:0px; top:0px;}
+            25% {background-color: #02ccf0; left:200px;top:0px;}
+            50% {background-color: #072bf5; left:200px;top:200px;}
+            75% {background-color: #f108b7; left:0px;top:200px;}
+            100% {background-color: #fc0303; top:0px;left:0px;}
+
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        
+
+    </div>
+</body>
+</html>
