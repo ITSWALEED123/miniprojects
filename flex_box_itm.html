@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>item Flex box</title>
+    <style>
+        .container{
+            display: flex;
+            background: #0ee0cf;
+            flex-wrap: nowrap;
+            
+            align-content: center;
+            align-items: stretch;
+
+        }
+        .container > div{
+            width: 150px;
+            /* height: 80px; */
+            background-color: #fa0dda;
+            color: black;
+            text-align: center;
+            font-size: 35px;
+            line-height: 75px;
+            margin: 10px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div style="flex-shrink: 0;">2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+
+        
+    </div>
+</body>
+</html>
